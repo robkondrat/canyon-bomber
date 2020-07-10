@@ -30,6 +30,12 @@ function draw() {
 
   bomber2.update(canyon.blocks);
   bomber2.draw();
+
+  push();
+  noStroke();
+  fill(112, 110, 112);
+  rect(0, 0, width, 60);
+  pop();
 }
 
 function mouseClicked() {
