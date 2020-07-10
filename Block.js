@@ -1,11 +1,11 @@
 class Block {
-  constructor(x, y, colour) {
+  constructor(x, y, color) {
     this.x = x;
     this.y = y;
 
-    this.r = colour.r;
-    this.g = colour.g;
-    this.b = colour.b;
+    this.r = color.r;
+    this.g = color.g;
+    this.b = color.b;
 
     this.endY = y;
   }
